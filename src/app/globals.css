@@ -1,21 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fuzzy+Bubbles:wght@400;700&family=Play:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fuzzy+Bubbles:wght@400;700&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* :root {
+    --background: #ffffff;
+    --foreground: #171717;
   }
-}
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+  } */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.primary-div {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.secondary-div {
+  width: 90%;
+  min-height: 100%;
 }
